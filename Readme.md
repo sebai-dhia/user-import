@@ -86,7 +86,6 @@ frontend/
 │   ├── App.js
 │   ├── index.css
 │   └── index.js
-├── .gitignore
 ├── package-lock.json
 └── package.json
 ```
