@@ -1,4 +1,4 @@
-# Bulk User Import System
+# 📂 Bulk User Import System
 
 A simple system for **bulk importing users from CSV files**. The backend is built with **Spring Boot and Kotlin**, and the frontend is built with **React.js**. Users can upload CSV files, which are validated and processed asynchronously.
 
@@ -6,16 +6,16 @@ A simple system for **bulk importing users from CSV files**. The backend is buil
 
 ## 📚 Table of Contents
 
-* [Overview](#overview)
-* [Features](#features)
-* [Prerequisites](#prerequisites)
-* [Project Structure](#project-structure)
-* [Backend Setup](#backend-setup)
-* [Frontend Setup](#frontend-setup)
-* [Running the Application](#running-the-application)
-* [Design Choices](#design-choices)
-* [CSV File Structure Example](#csv-file-structure-example)
-* [License](#license)
+- [Overview](#overview)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Project Structure](#project-structure)
+- [Backend Setup](#backend-setup)
+- [Frontend Setup](#frontend-setup)
+- [Running the Application](#running-the-application)
+- [Design Choices](#design-choices)
+- [CSV File Structure Example](#csv-file-structure-example)
+- [License](#license)
 
 ---
 
@@ -27,32 +27,31 @@ This application allows uploading CSV files containing user information. Each ro
 
 ## ✨ Features
 
-* Bulk CSV file upload.
-* Asynchronous processing using **Kotlin Coroutines**.
-* Validation of `id`, `firstName`, `lastName`, and `email`.
-* Clear feedback on frontend for success and errors.
+- Bulk CSV file upload.
+- Asynchronous processing using **Kotlin Coroutines**.
+- Validation of `id`, `firstName`, `lastName`, and `email`.
+- Clear feedback on frontend for success and errors.
 
 ---
 
 ## ⚙️ Prerequisites
 
-### **Backend**
+### Backend
 
-* Java 17
-* Gradle 8+ (or use Gradle wrapper)
+- Java 17
+- Gradle 8+ (or use Gradle wrapper)
 
-### **Frontend**
+### Frontend
 
-* Node.js 20+
-* npm 9+
+- Node.js 20+
+- npm 9+
 
 ---
 
 ## ✅ Project Structure
 
-### **Backend**
-
-```
+### Backend
+```text
 backend/
 ├── src/main/kotlin/com/example/userimport
 │   ├── controller
@@ -67,11 +66,11 @@ backend/
 │   └── BulkUserImportSystemApplication.kt
 ├── build.gradle.kts
 └── settings.gradle.kts
-```
+````
 
-### **Frontend**
+### Frontend
 
-```
+```text
 frontend/
 ├── node_modules/
 ├── public/
