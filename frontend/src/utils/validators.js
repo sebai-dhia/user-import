@@ -1,0 +1,1 @@
+export const isCsvFile = (file) => file?.name?.endsWith(".csv");
