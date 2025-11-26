@@ -154,11 +154,12 @@ npm start
 
 ## 💡 Design Choices
 
-### Pub/Sub Implementation with Kotlin Coroutines
+### Queue-style Event Bus with Kotlin Coroutines
 
 * Lightweight, non-blocking concurrency
 * 4 worker coroutines for balanced throughput
 * `Channel.UNLIMITED` ensures no dropped events
+* Single subscriber service processes each file exactly once
 
 ### File Storage
 
